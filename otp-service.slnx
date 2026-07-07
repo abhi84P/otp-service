@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OtpConsumer.Api/OtpConsumer.Api.csproj" />
+    <Project Path="src/OtpManagement.Service/OtpManagement.Service.csproj" />
+  </Folder>
+</Solution>
