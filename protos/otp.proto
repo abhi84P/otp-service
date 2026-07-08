@@ -12,12 +12,13 @@ service OtpManager {
 }
 
 message GenerateOtpRequest {
-  string identifier = 1; // phone / email (opaque string)
+  string identifier = 1;
 }
 
 message GenerateOtpResponse {
   string request_id = 1;
   google.protobuf.Timestamp expires_at = 2;
+  string code = 3;
 }
 
 message ValidateOtpRequest {
